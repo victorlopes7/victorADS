@@ -1,0 +1,226 @@
+/*estlo geral*/
+
+
+ /* --- SOBRE MIM ---*/
+
+ body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #201b2c;
+    color: #F0F0F0;
+    
+}
+
+body *{
+    box-sizing: border-box;
+}
+/*menu de navegacao*/
+
+nav{
+    background-color: #1a1a1a;
+    padding: 20px;
+    justify-items: center;
+    
+
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    
+
+
+}
+
+nav a{
+    color: #F0F0F0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #77ffc0;
+
+}
+
+/*conteudo principal*/
+
+main{
+    padding: 40px;
+    width: 100%;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 10px #080808;
+    border-radius: 11px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+}
+
+h1{
+    color: #77ffc0;
+    text-align: left;
+    font-size: 43px;
+
+}
+
+/*rodape*/
+   footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
+.esquerda img {
+    width: 30%;
+    display: flex;    
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+
+p{
+    font-size: 32px;
+}
+
+/* ---FORMAÇAO---*/
+.formacao-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap; 
+}
+
+.formacao-bloco {
+    flex: 1;
+    min-width: 250px; 
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000050;
+}
+
+.formacao-bloco h2 {
+    color: #77ffc0;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.formacao-bloco ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.formacao-bloco li {
+    margin-bottom: 8px;
+}
+
+
+
+/* CONTATO- PRINCIPAL  */
+.contato-container {
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00000050;
+}
+
+
+/* Título do formulário */
+.contato-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00ffff;
+}
+
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario-contato label {
+    font-weight: bold;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee;
+    font-size: 1em;
+}
+
+
+/* Botão de envio */
+.formulario-contato button {
+    padding: 10px;
+    background-color: #77ffc0;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario-contato button:hover {
+    background-color: #77ffc0;
+}
+
+
+/*---PORTFOLIO---*/
+
+.container-projetos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.projeto {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #2a2a2a;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.botao-projeto {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #77ffc0;
+    color: #F0F0F0;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao-projeto:hover {
+    background-color: #77ffc1;
+}
+
+main{
+    text-align: center;
+
+}
+main h1{
+    text-align: center;
+}
